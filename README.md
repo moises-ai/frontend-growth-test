@@ -1,4 +1,4 @@
-# Moises - Front-end coding test
+# Moises - Front-end Growth Test
 
 ![Screen](./.github/screen.png)
 
@@ -6,9 +6,11 @@
 
 - The project is bootstraped using [Next.js](https://nextjs.org/).
 - Implement this design using React and Typescript.
+- You’ll notice the CMS payload contains the home page data in English and Portuguese, meaning the Front-end should be multi-lang, it should also be prepared to easily scale to new languages if necessary.
 
 ## What we will evaluate
 
+- React good practices and performance
 - Pixel perfect
 - Code structure and reusablity
 - Semantics
@@ -26,13 +28,15 @@ Clone this repository to get started and run the API server and development serv
 npm run server & npm run dev
 ```
 
-**global**
+**`/global?locale=en|pt`**
 
-Consume the `/global` route for generate common components of the layout: header, footer, and social links.
+The global route returns an object filtered by locale param to generate common components of the layout: header, footer, and social links.
 
-**pages**
+**`/pages?locale=en|pt`**
 
-Consume the `/pages` route for generating the page's sections.
+The pages route returns an array of pages filtered by locale param, meaning the front-end should seamlessly render whichever pages are returned from the API.
+
+At the end the website should be statically built, no requests should be made to the CMS mock server during run time.
 
 ## Submission
 
