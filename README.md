@@ -1,9 +1,4 @@
-<p>
-  <a href="https://moises.ai">
-    <img src="./.github/moises.png" width="44" height="44">
-    <h1>Moises - Front-end coding test</h1>
-  </a>
-</p>
+# Moises - Front-end coding test
 
 ![Screen](./.github/screen.png)
 
@@ -25,24 +20,22 @@
 
 ## Getting Started
 
-Clone this repository to get started and run the development server:
+Clone this repository to get started and run the API server and development server:
 
 ```bash
-npm run dev
+npm run server & npm run dev
 ```
 
-Consume the endpoints:
+**global**
 
-```
-# global
-https://run.mocky.io/v3/1bad0637-7a10-4e1b-afc7-ee892daca56d
+Consume the `/global` route for the global components of the page: header, footer, and social links.
 
-# page
-https://run.mocky.io/v3/f4d30046-9cb6-4777-9fa0-d69a9f34645f
-```
+**pages**
+
+Consume the `/pages` route for generating the page's sections.
 
 ## Submission
 
-Upon completing the test, publish your project to a URL (Vercel, Netlify, etc.) and send the compressed code to the informed email instead of submitting a pull-request.
+Upon completing the test, publish your project to a URL (Vercel, Netlify, etc.) and send the your repo link to the informed email instead of submitting a pull-request.
 
 Good luck! 🚀
