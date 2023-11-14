@@ -31,6 +31,8 @@ Clone this repository to get started and run the development server:
 npm run dev
 ```
 
+Consume the endpoints:
+
 ```
 # global
 https://run.mocky.io/v3/1bad0637-7a10-4e1b-afc7-ee892daca56d
