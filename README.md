@@ -31,6 +31,14 @@ Clone this repository to get started and run the development server:
 npm run dev
 ```
 
+```
+# global
+https://run.mocky.io/v3/1bad0637-7a10-4e1b-afc7-ee892daca56d
+
+# page
+https://run.mocky.io/v3/f4d30046-9cb6-4777-9fa0-d69a9f34645f
+```
+
 ## Submission
 
 Upon completing the test, publish your project to a URL (Vercel, Netlify, etc.) and send the compressed code to the informed email instead of submitting a pull-request.
