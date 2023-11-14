@@ -28,7 +28,7 @@ npm run server & npm run dev
 
 **global**
 
-Consume the `/global` route for the global components of the page: header, footer, and social links.
+Consume the `/global` route for generate common components of the layou: header, footer, and social links.
 
 **pages**
 
