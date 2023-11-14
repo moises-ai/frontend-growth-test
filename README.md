@@ -1,11 +1,9 @@
 <p>
   <a href="https://moises.ai">
     <img src="./.github/moises.png" width="44" height="44">
-    <h1>Moises</h1>
+    <h1>Moises - Front-end coding test</h1>
   </a>
 </p>
-
-## Front-end coding test
 
 ![Screen](./.github/screen.png)
 
