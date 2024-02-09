@@ -9,8 +9,8 @@
 
 ## Rules
 
-- You’ll notice the CMS payload contains the home page data in English and Portuguese, meaning the Front-end should be multi-lang, it should also be prepared to easily scale to new languages if necessary.
-- All the images needed are available in the payload.
+- You’ll notice the CMS payload contains the home page data in English and Portuguese, meaning the Front-end should be multi-lang, it should also be prepared to easily scale to new languages or new pages if necessary.
+- All the images needed are available in the payload. (icons are in figma)
 - The page should be responsive, follow SEO best practices and be carefully crafted.
 - The intention of this test is to evaluate your ability to transpose a layout to code, we discourage copying/pasting code from moises.ai. Feel free to code plain CSS or use any framework you feel familiar with.
 - at the end the website should be statically built, no requests should be made to the CMS mock server during run time.
@@ -27,7 +27,7 @@
 Clone this repository to get started and run the API server and development server:
 
 ```bash
-npm run server & npm run dev
+npm run dev
 ```
 
 **`/global?locale=en|pt`**
